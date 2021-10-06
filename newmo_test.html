@@ -1,0 +1,145 @@
+<html>
+    <head>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Newmofism test</title>
+		<!--CSS ライブラリ-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <style>
+            body{
+                background-color:rgb(241,246,243);
+                letter-spacing: 0.1rem;
+            }
+            #wrapper{
+                max-width: 990px;
+                margin-right: auto;
+                margin-left: auto;
+                font-family:'Muli', san-serif;
+                
+            }
+            .pv_list{
+                justify-content:space-around;
+            }
+
+            .header_s_title {
+                display: inline;
+                font-size: 1.7rem;
+                vertical-align: middle;
+            }
+
+            .newmo_title{
+                max-width:990px;
+                text-align: center;
+                letter-spacing: 1rem;
+                font-size:30px;
+                padding: 40px 0px 50px 0px;
+            }
+            .p_main ul {
+                display: flex;
+                padding-inline-start: 0px;
+                list-style-type: none;
+                justify-content: space-around;
+                position: relative;
+                flex-wrap: wrap;
+                margin-bottom: 0rem;
+            }
+            .p_main li {
+                display: flex;
+                width: 300px;
+                height: fit-content;
+                margin: 13px;
+                margin-bottom: 23px;
+                padding:30px 10px;
+                flex-direction: column;
+                text-align: center;
+                background-color:rgb(241,246,243);
+                border-radius:55px;
+                box-shadow: 
+                    13px 13px 26px #cac5c5,
+                    -13px -13px 26px #ffffff;
+            }
+            .p_main p{
+                padding-bottom:5px;
+            }
+            .p_main a{
+                padding:7px 0px;
+                color:#44476A;
+                transition: all 0.2s ease;
+            }
+            .p_main a:hover{
+                text-decoration: none;
+                border-radius: 5px;
+                box-shadow: inset 4px 4px 8px rgba(136, 165, 191, 0.48), inset -4px -4px 8px #FFFFFF;
+            }
+            .fa-text-width{
+                font-size: 2.5rem;
+                padding: 10px 3px 9px 10px;
+                vertical-align: middle;
+                color: green;
+            }
+            @media screen and (max-width: 480px){
+                .header_s{
+                    background-color:rgb(241,246,243);
+                    position: sticky;
+                    top: 0;
+                    z-index: 10;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="header_s">
+                <!-- <a href=""><img src="" alt="Logo"></a> -->
+                <i class="fa fa-text-width" aria-hidden="true"></i>
+                <div class="header_s_title">社長室配信</div>
+            </div>
+            <div class="p_main">
+                <div class="newmo_title">TOP</div>
+                <ul class="pv_list">            
+                    <li>
+                        <p>新入社員のあなたへ</p>
+                        <a href="">contents 1</a>
+                        <a href="">contents 2</a>
+                        <a href="">contents 3</a>
+                    </li>
+                    <li>
+                        <p>中途社員のあなたへ</p>
+                        <a href="">contents 1</a>
+                        <a href="">contents 2</a>
+                        <a href="">contents 3</a>
+                        <a href="">contents 4</a>
+                        <a href="">contents 5</a>
+                    </li>
+                    <li>
+                        <p>復職後のあなたへ</p>
+                        <a href="">contents 1</a>
+                        <a href="">contents 2</a>
+                        <a href="">contents 3</a>
+                    </li>
+                    <li>
+                        <p>ママさんなあなたへ</p>
+                        <a href="">contents 1</a>
+                        <a href="">contents 2</a>
+                        <a href="">contents 3</a>
+                        <a href="">contents 4</a>
+                    </li>
+                    <li>
+                        <p>OOなあなたへ</p>
+                        <a href="">contents 1</a>
+                        <a href="">contents 2</a>
+                        <a href="">contents 3</a>
+                    </li>
+                    <li>
+                        <p>OOなあなたへ</p>
+                        <a href="">contents 1</a>
+                        <a href="">contents 2</a>
+                        <a href="">contents 3</a>
+                    </li>                  
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
